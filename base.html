@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="vieport" contet="width=device-width,initial-scale=1"/>
+        <link
+        href="https://jsdelivr.net" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU90FeRpok6YctnYmDr5pNlyT2bRjXh0JMHjY6hW+ALEwIH" crossorigin="anonymous"
+
+        />
+        <link
+
+        />
+        <title>{% block title%}Home{%endblock %}</title>
+    
+
+
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+             <button class="navbar-toggler" type="button" data-toggler="collapse" data-target="#navbar"
+               <span class="navbar-toggler-icon"></span>
+             <div class="collapse navbar - collapse id=navbar">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" id="login" href="/login">login</a>
+                    <a class="nav-item nav-link" id="sign-Up" href="/sign-Up">sign-Up</a>
+                    <a class="nav-item nav-link" id="" href="/logout">logout</a>
+                    <a class="nav-item nav-link" id="home" href="/login">home</a>
+                </div>
+             </div>
+        </button>
+        </nav>
+        <div class="container">
+        {% block content %}
+        {% endblock %}
+        </div>
+        <script
+        src="https://jsdelivr"
+
+        ></script>
+
+    </body>
+</html>
